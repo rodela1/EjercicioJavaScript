@@ -19,15 +19,15 @@ console.log('El número mayor del array es ' + numero)
 cadenaNum.sort
 
 //Realizamos las operaciones y las mostramos por consola
-lonCadena = cadenaNum.length
-sumaCadena = cadenaNum[lonCadena-1]+cadenaNum[lonCadena-2]
-restaCadena = cadenaNum[lonCadena-1]-cadenaNum[lonCadena-2]
-prodCadena = cadenaNum[lonCadena-1]*cadenaNum[lonCadena-2]
-cociCadena = cadenaNum[lonCadena-1]/cadenaNum[lonCadena-2]
-resCadena = cadenaNum[lonCadena-1]%cadenaNum[lonCadena-2]
+lonCadena = cadenaNum.length;
+sumaCadena = cadenaNum[lonCadena-1]+cadenaNum[lonCadena-2];
+restaCadena = cadenaNum[lonCadena-1]-cadenaNum[lonCadena-2];
+prodCadena = cadenaNum[lonCadena-1]*cadenaNum[lonCadena-2];
+cociCadena = cadenaNum[lonCadena-1]/cadenaNum[lonCadena-2];
+resCadena = cadenaNum[lonCadena-1]%cadenaNum[lonCadena-2];
 
-console.log('El resultado de la suma es '+ sumaCadena)
-console.log('El resultado de la resta es '+ restaCadena)
-console.log('El resultado del producto es '+ prodCadena)
-console.log('El resultado del cociente es '+ cociCadena)
-console.log('El resultado del resto es '+ resCadena)
+console.log('El resultado de la suma es '+ sumaCadena);
+console.log('El resultado de la resta es '+ restaCadena);
+console.log('El resultado del producto es '+ prodCadena);
+console.log('El resultado del cociente es '+ cociCadena);
+console.log('El resultado del resto es '+ resCadena);
