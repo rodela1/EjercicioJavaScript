@@ -14,4 +14,4 @@ if ((dni<=0)||(dni>99999999)||(dni===null)){
     letra = letras[(resto)];
     alert("El número es "+resto);
     alert("La letra resultado es "+letra);
-}225684142256841422568514
+}
