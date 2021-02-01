@@ -24,7 +24,7 @@ function origenColor() {
 //Letra vocal en rojo Consonante en verde
 const letra = document.querySelector('#variable');
 
-letra.addEventListener('keypress', colorLetra);
+//letra.addEventListener('keypress', colorLetra);
 function colorLetra(event){
   const selLetra = event.which;
   if (selLetra === 97 || selLetra === 101 || selLetra === 105 || selLetra === 111 || selLetra === 117) {
